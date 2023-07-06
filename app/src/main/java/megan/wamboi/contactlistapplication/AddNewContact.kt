@@ -17,6 +17,7 @@ class AddNewContact : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         binding.btnaddperson.setOnClickListener {
+
             validateAdd()
             clearError()
         }
